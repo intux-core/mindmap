@@ -23,7 +23,7 @@
           "id": 8,
           "ideas": {
             "1": {
-              "title": "/system/ (unique partition, created on install)",
+              "title": "/system/ (unique partition, created on install, designed to fit os and drivers)",
               "id": 11,
               "attr": {
                 "position": [
@@ -84,9 +84,9 @@
                         },
                         "progress": "1",
                         "position": [
-                          204.6875,
-                          -143.7499999999999,
-                          3
+                          185.92910156250264,
+                          -87.84916992187368,
+                          5
                         ]
                       }
                     },
@@ -121,8 +121,28 @@
                                   }
                                 },
                                 "3": {
-                                  "title": "/system/drivers/realtek/hd-audio/rc",
+                                  "title": "/system/drivers/realtek/hd-audio/stable",
                                   "id": "96.gd7664f1f789a73c87",
+                                  "attr": {
+                                    "style": {
+                                      "background": "#00ccff"
+                                    },
+                                    "progress": "5"
+                                  }
+                                },
+                                "2.5": {
+                                  "title": "/system/drivers/realtek/hd-audio/beta",
+                                  "id": "153.gd2ce428c3267bef5e",
+                                  "attr": {
+                                    "style": {
+                                      "background": "#00ccff"
+                                    },
+                                    "progress": "5"
+                                  }
+                                },
+                                "2.75": {
+                                  "title": "/system/drivers/realtek-hd-audio/rc",
+                                  "id": "152.gd2ce428c3267bef5e",
                                   "attr": {
                                     "style": {
                                       "background": "#00ccff"
@@ -145,7 +165,12 @@
                             "style": {
                               "background": "#00ccff"
                             },
-                            "progress": "5"
+                            "progress": "5",
+                            "position": [
+                              213.86660156250264,
+                              -274.6616699218739,
+                              2
+                            ]
                           }
                         },
                         "2": {
@@ -162,6 +187,36 @@
                                       "background": "#00ccff"
                                     },
                                     "progress": "5"
+                                  },
+                                  "ideas": {
+                                    "1": {
+                                      "title": "[symlink to latest stable version, in this case 359.20]",
+                                      "id": "145.gd2ce428c3267bef5e",
+                                      "attr": {
+                                        "style": {}
+                                      }
+                                    }
+                                  }
+                                },
+                                "2": {
+                                  "title": "/system/drivers/nvidia/geforce/359.20",
+                                  "id": "144.gd2ce428c3267bef5e",
+                                  "attr": {
+                                    "style": {
+                                      "background": "#00ccff"
+                                    },
+                                    "progress": "5"
+                                  },
+                                  "ideas": {}
+                                },
+                                "3": {
+                                  "title": "/system/drivers/nvidia/geforce/360.00-beta1",
+                                  "id": "146.gd2ce428c3267bef5e",
+                                  "attr": {
+                                    "style": {
+                                      "background": "#00ccff"
+                                    },
+                                    "progress": "5"
                                   }
                                 },
                                 "0.5": {
@@ -172,6 +227,15 @@
                                       "background": "#00ccff"
                                     },
                                     "progress": "5"
+                                  },
+                                  "ideas": {
+                                    "1": {
+                                      "title": "[symlink to latest beta version, in this case 360.00-beta1]",
+                                      "id": "147.gd2ce428c3267bef5e",
+                                      "attr": {
+                                        "style": {}
+                                      }
+                                    }
                                   }
                                 }
                               },
@@ -186,6 +250,11 @@
                           },
                           "id": "84.gd177bffcfa0d8702a",
                           "attr": {
+                            "position": [
+                              185.86660156250264,
+                              114.65083007812609,
+                              1
+                            ],
                             "style": {
                               "background": "#00ccff"
                             },
@@ -194,15 +263,15 @@
                         }
                       },
                       "attr": {
-                        "style": {
-                          "background": "#00ff00"
-                        },
-                        "progress": "1",
                         "position": [
                           189.0625,
                           -337.49999999999966,
                           4
-                        ]
+                        ],
+                        "style": {
+                          "background": "#00ff00"
+                        },
+                        "progress": "1"
                       }
                     }
                   },
@@ -246,9 +315,9 @@
                           5
                         ],
                         "style": {
-                          "background": "#00ccff"
+                          "background": "#00ff00"
                         },
-                        "progress": "5"
+                        "progress": "1"
                       }
                     },
                     "2": {
@@ -285,9 +354,9 @@
                           2
                         ],
                         "style": {
-                          "background": "#00ccff"
+                          "background": "#00ff00"
                         },
-                        "progress": "5"
+                        "progress": "1"
                       }
                     },
                     "3": {
@@ -313,9 +382,9 @@
                       21
                     ],
                     "style": {
-                      "background": "#00ccff"
+                      "background": "#00ff00"
                     },
-                    "progress": "5"
+                    "progress": "1"
                   }
                 },
                 "3": {
@@ -362,7 +431,7 @@
                   "id": "97.gd7664f1f789a73c87",
                   "ideas": {
                     "1": {
-                      "title": "/system/lib/jre",
+                      "title": "/system/lib/jre/",
                       "id": "98.gd7664f1f789a73c87",
                       "attr": {
                         "style": {
@@ -387,6 +456,33 @@
                       -284.3749999999998,
                       19
                     ]
+                  }
+                },
+                "5": {
+                  "title": "/system/logs/",
+                  "id": "155.gd58729c33345f6ce0",
+                  "attr": {
+                    "position": [
+                      255.28066406250036,
+                      -164.28374023437607,
+                      23
+                    ],
+                    "style": {
+                      "background": "#00ff00"
+                    },
+                    "progress": "1"
+                  },
+                  "ideas": {
+                    "1": {
+                      "title": "/system/logs/eventlog",
+                      "id": "156.gd58729c33345f6ce0",
+                      "attr": {
+                        "style": {
+                          "background": "#00ccff"
+                        },
+                        "progress": "5"
+                      }
+                    }
                   }
                 }
               }
@@ -505,7 +601,7 @@
                           "id": "117.gd177bffcfa0d8702a",
                           "ideas": {
                             "1": {
-                              "title": "/mount/SSd2/Hacker/Music",
+                              "title": "/mount/SSD2/Hacker/Music",
                               "id": "118.gd177bffcfa0d8702a",
                               "attr": {
                                 "style": {
@@ -609,7 +705,7 @@
               }
             },
             "1.5": {
-              "title": "/users/ (unique partition)",
+              "title": "/users/ (unique partition, designed for storing user files, programs and program data)",
               "id": 33,
               "ideas": {
                 "3": {
@@ -1086,6 +1182,52 @@
         "4.5": {
           "title": "Package naming scheme: vendor/name/version",
           "id": "67.gd177bffcfa0d8702a",
+          "ideas": {
+            "2": {
+              "title": "Vendor and name are [a-zA-Z0-9.\\-_]+ (case insensitive)",
+              "id": "150.gd2ce428c3267bef5e",
+              "attr": {
+                "style": {
+                  "background": "#00ffff"
+                },
+                "progress": "2"
+              },
+              "ideas": {
+                "1": {
+                  "title": "Version can be [0-9.]+",
+                  "id": "148.gd2ce428c3267bef5e",
+                  "ideas": {
+                    "1": {
+                      "title": "It can be followed by a prerelease identifier: -(alpha|beta|nightly|rc)[0-9.]*",
+                      "id": "149.gd2ce428c3267bef5e",
+                      "attr": {
+                        "style": {
+                          "background": "#00ffff"
+                        },
+                        "progress": "2"
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "background": "#00ffff"
+                    },
+                    "progress": "2"
+                  }
+                }
+              }
+            },
+            "3": {
+              "title": "Final package name regex: [a-zA-Z0-9.\\-_]+\\/[a-zA-Z0-9.\\-_]+\\/[0-9.]+(?:-(?:alpha|beta|nightly|rc)[0-9.]*)?",
+              "id": "151.gd2ce428c3267bef5e",
+              "attr": {
+                "style": {
+                  "background": "#00ffff"
+                },
+                "progress": "2"
+              }
+            }
+          },
           "attr": {
             "style": {
               "background": "#00ffff"
